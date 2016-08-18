@@ -1,0 +1,21 @@
+CD6,0,0,0=
+EV6,0,0,0=
+CD14,0,0,0=Appuie sur bouton
+EV14,0,0,0=%BloqueAttaque%=0 //Assignation de var + commentaire
+EV14,0,0,1=AddObject(Pot,2)
+EV14,0,0,2=ChangeClasse('C1')
+EV14,0,0,3=//ShowInterface//Fonction + commentaire
+EV14,0,0,4=Message('ok')
+EV14,0,0,5=//ChangeClasse('C1')
+EV14,0,0,6=//Commentaires en vert
+EV14,0,0,7=//Erreurs en rouge
+EV14,0,0,8=%lol.Name%=loli
+EV14,0,0,9=Message(30,30,50,50,'%Gold%')
+EV14,0,0,10=Message('Cet event est %loli.Name%')
+EV14,0,0,11=%Name%=Echo
+CD14,5,0,0=En contact
+EV14,5,0,0=%Vie%=%Vie%-1
+CD14,6,0,0=En contact
+EV14,6,0,0=%Vie%=%Vie%-1
+CD14,7,0,0=En contact
+EV14,7,0,0=%Vie%=%Vie%-1
